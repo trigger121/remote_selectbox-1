@@ -49,7 +49,7 @@ function getText(t){
 				$('.values').val(items);					
 		}else{
 				var str = [];		
-				$('option:selected').each(function() {					
+				$('#contents div.field-remote_selectbox select option:selected').each(function() {					
 				  str.push($( this ).text());
 				});
 				str = str.join(',');
